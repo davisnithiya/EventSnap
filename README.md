@@ -2,25 +2,15 @@
 
 ## App Overview
 
-EventSnap is a specialized Spring Boot application designed to capture and cherish memorable moments from  event. 
+EventSnap is a specialized Spring Boot application built to capture and preserve memorable moments from events. It leverages advanced face recognition technology to group similar faces, ensuring that every precious moment is organized and easy to navigate.
 
-### Memories Feature
+### Profile Customization
 
-The core functionality of EventSnap revolves around the Memories feature:
+Delegates can personalize their profile by choosing one of the following options:
 
-- **Personalized Collections:** EventSnap generates personalized collections of photos and videos for each person, combining them into a captivating visual experience.
+1. **Select from Gallery:** They can pick an image from their phone's gallery to update their profile.
 
-### EventSnap Screen
-
-The EventSnap screen is the central hub for reliving and sharing captured memories. Delegates can upload and manage their images, ensuring that each special moment is preserved for posterity.
-
-### Profile Screen
-
-The Profile screen provides delegates with the ability to customize their personal information and image. Delegates can add their images using two convenient methods:
-
-1. **Upload from Gallery:** Delegates can choose to upload an image from their device's photo gallery, ensuring that their profile reflects their unique personality.
-
-2. **Capture by Camera:** Delegates can capture a new image using the device's camera, instantly updating their profile with a fresh snapshot.
+2. **Take a New Photo:** Delegates can take a new picture using their device’s camera for an instant profile update.
 
 ## Prerequisites
 
@@ -47,16 +37,11 @@ Before using EventSnap, ensure the following prerequisites are met:
 To get started with following steps:
 
 1. **Clone the Repository:**
-   ```bash
-   git clone https://gitlab.com/koko-microservices/smartevents.git
-   cd pedimoments
 2. **Configure Application Properties:**
    Update the application.properties file with the correct values for photo.path 
 3. **Build and Run the Application:**
 	./mvnw clean install
 	./mvnw spring-boot:run
-4. **Access points:**
-  http://localhost:8081//smart-events/api/v1/swagger-ui/index.html
   
 # Spring Boot User Registration and Photo Matching Flow
 
