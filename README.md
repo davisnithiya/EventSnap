@@ -2,7 +2,7 @@
 
 ## App Overview
 
-EventSnap is a specialized Spring Boot application built to capture and preserve memorable moments from events. It leverages advanced face recognition technology to group similar faces, ensuring that every precious moment is organized and easy to navigate.
+EventSnap is a specialized Spring Boot application built to capture and preserve memorable moments from events. It leverages advanced aws face recognition technology to group similar faces, ensuring that every precious moment is organized and easy to navigate.
 
 ### Profile Customization
 
