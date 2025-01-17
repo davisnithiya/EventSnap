@@ -1,4 +1,4 @@
-# EventSnap
+# AWS Face Recognition Technology
 
 ## App Overview
 
